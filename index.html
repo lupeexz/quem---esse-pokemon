@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quem é esse pokemon</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+    <h1>quem é esse pokémon??</h1>
+</header>
+    <div id="game-container">
+        <div id="shadow"><img src="" alt="" height="200" width="200"></div>
+        <div id="adivinhar" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <button class="hover-effect-button" onclick="aleatorio()">SORTEAR POKEMON</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/draggable/1.0.0/draggable.min.js"></script>
+        <div id="pokemon-container">
+
+
+            <!--squirtle-->
+            <div id="pokemon" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="pokemon" data-pokemon="1"><img src="./img/squirtle.png" draggable="true" ondragstart="drag(event)" id="drag1" height="70">
+        </div>
+    </div>
+    
+            <!--Caterpie-->
+            <div id="pokemon" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="pokemon" data-pokemon="1"><img src="./img/caterpie.png" draggable="true" ondragstart="drag(event)" id="drag2" height="70">
+            </div>
+        </div>
+
+            <!--charmander-->
+            <div id="pokemon" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="pokemon" data-pokemon="1"><img src="./img/charmander.png" draggable="true" ondragstart="drag(event)" id="drag3" height="70">
+            </div>
+        </div>
+
+            <!--Clefairy-->
+            <div id="pokemon" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="pokemon" data-pokemon="1"><img src="./img/clefairy.png" draggable="true" ondragstart="drag(event)" id="drag4" height="70">
+            </div>
+        </div>
+
+            <!--Psyduck-->
+                <div id="pokemon" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div class="pokemon" data-pokemon="1"><img src="./img/psyduck.png" draggable="true" ondragstart="drag(event)" id="drag5" height="70">
+                </div>
+            </div> 
+
+            <!--Buterfree-->
+            <div id="pokemon" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="pokemon" data-pokemon="1"><img src="./img/butterfree.png" draggable="true" ondragstart="drag(event)" id="drag6" height="70">
+            </div>
+        </div>
+            
+        <!--Picachu-->
+        <div id="pokemon" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="pokemon" data-pokemon="1"><img src="./img/pikachu.png" draggable="true" ondragstart="drag(event)" id="drag7" height="70">
+        </div>
+    </div> 
+
+    <!--bulbasaur-->
+            <div id="pokemon" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="pokemon" data-pokemon="1"><img src="./img/bulbasaur.png" draggable="true" ondragstart="drag(event)" id="drag8" height="70">
+            </div>
+        </div>
+    
+    
+</body>
+</html>
